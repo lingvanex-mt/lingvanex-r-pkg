@@ -1,0 +1,15 @@
+Package: openapi
+Title: R Package Client for Lingvanex Cloud API
+Version: 1.0.0
+Author: person("OpenAPI Generator community", email = "info@lingvanex.com", role = c("aut", "cre"))
+Maintainer: OpenAPI Generator community <info@lingvanex.com>
+Description: Lingvanex works via HTTPS requests. The URL of all requests starts with https://api-b2b.backenster.com/b1/api/v3/. In case of a protocol selection error and using HTTP, the request will be redirected to the address with the HTTPS protocol (status code 302). <br><br>Authentication of requests is done by adding the “Authorization” header with the following data format: Bearer The key can be created on the user control panel page https://lingvanex.com/account. Example: \"Authorization: Bearer <YOUR_API_KEY>\".
+URL: https://github.com/GIT_USER_ID/GIT_REPO_ID
+BugReports: https://github.com/GIT_USER_ID/GIT_REPO_ID/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: Unlicense
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc, stringr
+RoxygenNote: 7.2.1
